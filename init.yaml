@@ -4,5 +4,3 @@ write_files:
     content: |
         #!/bin/bash
         wo site create testing.tld --wp
-runcmd:
-  - bash /root/test.sh
