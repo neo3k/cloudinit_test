@@ -14,5 +14,4 @@
 # Note, that the list has to be proper yaml, so you have to quote
 # any characters yaml would eat (':' can be problematic)
 runcmd:
- - [ wget -qO wo wops.cc && sudo bash wo ]
- - [ wo site create site.tld --html ]
+ - [ wo site create site.tld --wp ]
