@@ -3,8 +3,6 @@ write_files:
   - path: /root/test.sh
     content: |
         #!/bin/bash
-        set -x
-        set -e
-        whoami
+        wo site create testing.tld --wp
 runcmd:
   - bash /root/test.sh
