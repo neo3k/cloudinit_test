@@ -1,0 +1,8 @@
+#cloud-config
+write_files:
+  - path: /root/init.sh
+    content: |
+        #!/bin/bash
+        wo site create testing.tld --wp
+runcmd:
+  - bash /root/init.sh
